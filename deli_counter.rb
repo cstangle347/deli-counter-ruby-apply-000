@@ -1,13 +1,13 @@
 # Write your code here.
 katz_deli = []
 
-# customer will take a number 
+
 def take_a_number(katz_deli, name) 
   katz_deli.push (name)
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
-# indacates which customer is in line
+
 def now_serving(array) 
   if array.empty?
     puts "There is nobody waiting to be served!"
@@ -18,7 +18,6 @@ def now_serving(array)
 end
 
 
-# line length
 def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
